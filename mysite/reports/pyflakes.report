@@ -1,0 +1,11 @@
+../../local/lib/python2.7/site-packages/django/contrib/admin/util.py:9: [E] PYFLAKES:'from django.contrib.admin.utils import *' used; unable to detect undefined names
+../../local/lib/python2.7/site-packages/django/contrib/contenttypes/generic.py:13: [E] PYFLAKES:'GenericTabularInline' imported but unused
+../../local/lib/python2.7/site-packages/django/contrib/contenttypes/generic.py:13: [E] PYFLAKES:'GenericStackedInline' imported but unused
+../../local/lib/python2.7/site-packages/django/contrib/contenttypes/generic.py:13: [E] PYFLAKES:'GenericInlineModelAdmin' imported but unused
+../../local/lib/python2.7/site-packages/django/contrib/contenttypes/generic.py:16: [E] PYFLAKES:'GenericForeignKey' imported but unused
+../../local/lib/python2.7/site-packages/django/contrib/contenttypes/generic.py:16: [E] PYFLAKES:'GenericRelation' imported but unused
+../../local/lib/python2.7/site-packages/django/contrib/contenttypes/generic.py:19: [E] PYFLAKES:'BaseGenericInlineFormSet' imported but unused
+../../local/lib/python2.7/site-packages/django/contrib/contenttypes/generic.py:19: [E] PYFLAKES:'generic_inlineformset_factory' imported but unused
+../../local/lib/python2.7/site-packages/django/contrib/messages/__init__.py:1: [E] PYFLAKES:'from django.contrib.messages.api import *' used; unable to detect undefined names
+../../local/lib/python2.7/site-packages/django/contrib/messages/__init__.py:2: [E] PYFLAKES:'from django.contrib.messages.constants import *' used; unable to detect undefined names
+../../local/lib/python2.7/site-packages/django_jenkins/management/commands/jenkins.py:66: [E] PYFLAKES:'apps' imported but unused
