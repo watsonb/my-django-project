@@ -2,3 +2,4 @@ pyOpenSSL==0.15.1
 ndg-httpsclient==0.3.3
 pyasn1==0.1.7
 Django==1.8
+psycopg2
