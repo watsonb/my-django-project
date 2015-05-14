@@ -1,3 +1,5 @@
 *.pyc
 *.sqlite
 mysite/reports/
+*.project
+*.pydevproject
