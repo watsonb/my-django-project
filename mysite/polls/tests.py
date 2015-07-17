@@ -22,10 +22,12 @@ class QuestionMethodTests(TestCase):
         """
         was_published_recently() should return False for questions whose
         pub_date is in the future.
+        
+        Note: Set the second argument to 'True' if you want this to fail
         """
         time = timezone.now() + datetime.timedelta(days=30)
         future_question = Question(pub_date=time)
-        self.assertEqual(future_question.was_published_recently(), False)
+        self.assertEqual(future_question.was_published_recently(), True)
 
     def test_was_published_recently_with_old_question(self):
         """
