@@ -24,6 +24,7 @@ class QuestionMethodTests(TestCase):
         pub_date is in the future.
         
         Note: Set the second argument to 'True' if you want this to fail
+        
         """
         time = timezone.now() + datetime.timedelta(days=30)
         future_question = Question(pub_date=time)
