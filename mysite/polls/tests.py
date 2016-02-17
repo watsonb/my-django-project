@@ -23,7 +23,7 @@ class QuestionMethodTests(TestCase):
         was_published_recently() should return False for questions whose
         pub_date is in the future.
         
-        Note: Set the second argument to 'True' if you want this to fail+
+        Note: Set the second argument to 'True' if you want this to fail
         
         """
         time = timezone.now() + datetime.timedelta(days=30)
